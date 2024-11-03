@@ -1,0 +1,28 @@
+build/**
+out/**
+gradlew.bat
+
+.DS_Store
+/**/build/**
+/**/out/**
+/**/.gradle/**
+
+# Terraform files
+.terraform/
+terraform.tfstate.backup
+terraform.tfstate.*.backup
+*.tfstate
+terraform-provider-aws
+.terraform.lock.hcl
+python-zips
+
+# Generated files
+/**/.classpath
+/**/.settings/
+/**/bin/**
+/**/.project
+/**/.idea/**
+/**/target/**
+/**/*.iml
+/**/lib/**
+/**/.aws-sam/**
